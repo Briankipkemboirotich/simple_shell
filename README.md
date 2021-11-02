@@ -1,30 +1,30 @@
-Simple Shell
+#Simple Shell
 
-Project details
+##Project details
 Welcome to the Simple Shell project!! This program is a simple shell that can be compiled and launched from the command line.
 
-How to Compile
+##How to Compile
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
-Syntax
+##Syntax
 When using this shell, the syntax for running any command follows the familiar syntax when running a command in any other shell.
 
-Builtin Commands
+##Builtin Commands
 This shell supports a variety of commands:
 
-alias - create or list an alias
+**alias** - create or list an alias
 
-cd - change directory
+**cd** - change directory
 
-env - list the current environment variable
+**env** - list the current environment variable
 
-exit - exit the shell
+**exit** - exit the shell
 
-history - display the command history for the current shell session
+**history** - display the command history for the current shell session
 
-setenv - set environment variable
+**setenv** - set environment variable
 
-unsetenv - unset environment variable
+**unsetenv** - unset environment variable
 
 Compilation
 Files
