@@ -48,4 +48,5 @@ typedef struct sev_s
 	char *arg0;
 
 	sev_t;
+}
 #endif
