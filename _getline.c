@@ -1,5 +1,5 @@
 #include "shell.h"
-#include "./memofile/memo.h"
+#include "./_memo/memo.h"
 
 /**
  * _getline - get line from file descrip

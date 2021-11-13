@@ -12,14 +12,14 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-#include "./stringfile/string.h"
-#include "linklist.h"
-#include "./memofile/memo.h"
+#include "./_string/string.h"
+#include "./_linklist/linklist.h"
+#include "./_memo/memo.h"
 #include "shellvar.h"
-#include "./builtinfile/builtin.h"
-#include "./errorfile/error.h"
-#include "./shellhelperfile/shellhelper.h"
-#include "log.h"
+#include "./_builtin/builtin.h"
+#include "./_error/error.h"
+#include "./_shelp/shelp.h"
+#include "./_log/log.h"
 #define SPACE " "
 #define EQUAL "="
 #define COLON ":"
