@@ -25,5 +25,3 @@ int p_alias_val(sev_t *sev, char *key, char *value, int flag);
 void process_inputs(char *cmd, sev_t *sev);
 void dis_banner(int ia_mode);
 void checker_alias(sev_t *sev)
-
-#endif

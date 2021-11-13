@@ -1,43 +1,43 @@
 .\" Manpage for Simple Shell.
-.\" Contact Mohamed Mehdi Bouchoucha mehdiboch@gmail.com to correct errors or typos.
-.TH "MANDALORIAN Simple Shell" 1 "27 November 2019" "1.0" "MANDALORIAN Simple Shell man page"
+.\" Contact Brian Kipkemboi Rotich briankemboirotich@gmail.com to correct errors or typos.
+.TH "Bkr Simple Shell" 1 "1 November 2021" "1.0" "MANDALORIAN Simple Shell man page"
 
 .SH NAME
-hsh - Mandalorian Simple Shell
+hsh - Bkr Simple Shell
 
 .SH SYNOPSIS
 hsh (does not support arguments)
 
 .SH DESCRIPTION
-Welcome to the Mandalorian Simple Shell project! This program is a simple shell that can be compiled and launched from the command line within any number of Linux versions.
+Welcome to the Bkr Simple Shell project! This program is a simple shell that can be compiled and launched from the command line within any number of Linux versions.
 
 .SH OVERVIEW
-The Mandalorian Simple Shell project is a major team project conducted by Mohamed Mehdi Bouchoucha and Sami Lafine, students at Holberton School.
+The Bkr Simple Shell project is a major team project conducted by Mohamed Mehdi Bouchoucha and Sami Lafine, students at Holberton School.
 
 .SH RETURN VALUE
 The shell returns the error code given by the last completed command followed by either ctrl-d or exit with no status code.
 
 .SH SYNTAX
-MANDALORIAN$ <command> <flags or options> <argument 1> <argument 2> ...
+Bkr$ <command> <flags or options> <argument 1> <argument 2> ...
 
 $ <command> | ./hsh
 .SS
 
 .SS
 EXAMPLE 1:
-MANDALORIAN$ /bin/ls
+Bkr$ /bin/ls
 .SS
 EXAMPLE 2:
-MANDALORIAN$ ls -l
+Bkr$ ls -l
 .SS
 EXAMPLE 3:
-MANDALORIAN$ cat textfile
+Bkr$ cat textfile
 .SS
 
 
 .SS
 EXAMPLE 4:
-$ echo "ls -l" | ./hsh
+Bkr$ echo "ls -l" | ./hsh
 
 .SH BUILTIN COMMANDS
 .SS alias

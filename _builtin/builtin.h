@@ -21,7 +21,7 @@ typedef struct builtin
 	void (*func)(sev_t *);
 } built_t;
 
-/* builtin-1.c */
+/* builtin_1.c */
 void exit_sh(sev_t *sev);
 void _printenv(sev_t *sev);
 void _setenv(sev_t *sev);
