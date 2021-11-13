@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * main - the shell program start point
  * @ac: int num of command line args
@@ -7,7 +6,6 @@
  * @ev: null term'd arr of strs contain env vars
  * Return: int result. 0 in success, everything else is an error
  */
-
 int main(int ac, char **av, char **ev)
 {
 	sev_t sev;
