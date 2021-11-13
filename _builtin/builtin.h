@@ -18,19 +18,19 @@
 typedef struct builtin
 {
 	char *funcname;
-	void (*func)(sev_t *);
+	void (*func)(dev_t *);
 } built_t;
 
 /* builtin_1.c */
-void exit_sh(sev_t *sev);
-void _printenv(sev_t *sev);
-void _setenv(sev_t *sev);
-void _unsetenv(sev_t *sev);
-int check_builtin(sev_t *sev);
+void exit_sh(dev_t *sev);
+void _printenv(dev_t *sev);
+void _setenv(dev_t *sev);
+void _unsetenv(dev_t *sev);
+int check_builtin(dev_t *sev);
 
 /* builtin_2.c */
-void change_dir(sev_t *sev);
-void history(sev_t *sev);
-void alias(sev_t *sev);
+void change_dir(dev_t *sev);
+void history(dev_t *sev);
+void alias(dev_t *sev);
 
 #endif
